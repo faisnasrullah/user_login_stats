@@ -8,7 +8,7 @@ Frappe custom app that automatically generates and sends a daily CSV file contai
 - Retrieves user login statistics (first name, last name, and number of login attempts).
 - Generates a CSV file with the collected data.
 - Sends the CSV file to predefined email recipients once per day.
-- Uses ERPNext built-in email mechanisms and scheduler.
+- Use ERPNext built-in email mechanisms and scheduler.
 
 ---
 

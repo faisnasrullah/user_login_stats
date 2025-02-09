@@ -1,7 +1,7 @@
 app_name = "user_login_stats"
 app_title = "User Login Statistics"
-app_publisher = "email.faisnasrullah.akn2014@gmail.com"
-app_description = "Custom app that automatically generates and sends a daily CSV file containing user login statistics via"
+app_publisher = "Fais Nasrullah"
+app_description = "Custom app that automatically generates and sends a daily CSV file containing user login statistics via email"
 app_email = "faisnasrullah.akn2014@gmail.com"
 app_license = "mit"
 
@@ -165,6 +165,17 @@ app_license = "mit"
 # 		"user_login_stats.tasks.monthly"
 # 	],
 # }
+
+scheduled_events = {
+    "daily": [
+        "user_login_stats.user_login_statistics.utils.daily_login_stats.daily_login_stats"
+    ]
+}
+
+# Export Fixtures details
+fixtures = [
+    {"doctype": "Workspace", "filters": [["module", "=", "User Login Statistics"]]},
+]
 
 # Testing
 # -------

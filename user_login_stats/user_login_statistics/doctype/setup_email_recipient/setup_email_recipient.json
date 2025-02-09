@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-08 19:35:58.547764",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "email_recipient"
+ ],
+ "fields": [
+  {
+   "fieldname": "email_recipient",
+   "fieldtype": "Table",
+   "label": "Email Recipient",
+   "options": "List Email Recipient",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-02-08 19:51:55.833051",
+ "modified_by": "Administrator",
+ "module": "User Login Statistics",
+ "name": "Setup Email Recipient",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
